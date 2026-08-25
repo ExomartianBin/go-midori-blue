@@ -1,0 +1,6 @@
+Go 1.25
+2025-03-31 https://github.com/golang/go/commit/6d418096b2dfe2a2e47b7aa83b46748fb301e6cb os: avoid symlink races in RemoveAll on Windows [affected]
+2025-05-21 https://github.com/golang/go/commit/896097000912761dbd31cead2bec99f17534f521 os: add Root.RemoveAll [related 6d418096b2dfe2a2e47b7aa83b46748fb301e6cb] [affected]
+
+Go 1.27
+2026-03-24 https://github.com/golang/go/commit/341b5e2c0261cc059b157f1c7a2a2c4d1f417f0d cmd/link: raise minimum windows version to 10 [critical]
